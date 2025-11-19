@@ -1,0 +1,47 @@
+(The file `e:\bytes\road-safety-suite\.gitignore` exists, but is empty)
+# Node / Next.js
+node_modules/
+.next/
+.turbo/
+dist/
+out/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*
+
+# pnpm
+pnpm-lock.yaml
+
+# Optional: local IDE settings
+.idea/
+
+# Other
+coverage/
+build/
+/.pnp
+/.pnp.js
+
